@@ -158,6 +158,113 @@ while i <= 10:
 else:
     print("Loop has ended")
 
+#Python functions
+    
+def say_hello():
+    print("Hello")
+
+say_hello()
+
+def say_hello(name):
+    print("Hello", name)
+
+say_hello("Ryan")
+
+#Python functions math
+    
+def add(num1, num2):
+    return num1 + num2
+
+print(add(7, 6))
+print(add(32, 423))
+print(add(45, 67))
+
+def subtract(num1, num2):
+    return num1 - num2
+
+print(subtract(7, 6))
+print(subtract(32, 423))
+print(subtract(45, 67))
+
+def multiply(num1, num2):
+    return num1 * num2
+
+print(multiply(7, 6))
+print(multiply(32, 423))
+print(multiply(45, 67))
+
+def divide(num1, num2):
+    return num1 / num2
+
+print(divide(7, 6))
+print(divide(32, 423))
+print(divide(45, 67))
+
+#Python functions stringS
+
+str1 = "Hello"
+str2 = "World"
+extended_str = str1 + " " + str2
+print(extended_str)
+
+def add_strings(str1, str2):
+    return str1 + " " + str2
+
+print(add_strings("Hello", "World"))
+print(add_strings("Ryan", "Smith"))
+print(add_strings("Python", "Programming"))
+
+#lists and loops with strings
+
+fruits = ["apple","banana","cherry"]
+print(fruits)
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+list_length = len(fruits)
+print("length of fruits array is = ", list_length)
+
+for i in range(0, list_length):
+    print(fruits[i])
+
+for fruit in fruits:
+    print(fruit)
+
+#lists and loops with numbers
+    
+numbers = [1,2,3,4,5,6,7,8,9,10]
+print(numbers)
+print(numbers[0])
+print(numbers[1])
+print(numbers[2])
+
+list_length = len(numbers)
+print("length of numbers array is = ", list_length)
+
+for i in range(0, list_length):
+    print(numbers[i])
+
+for number in numbers:
+    print(number)
+
+#lists and loops with mixed data types
+    
+mixed = ["cherry", 6, 45.7, True]
+print(mixed)
+print(mixed[0])
+print(mixed[1])
+print(mixed[2])
+
+list_length = len(mixed)
+print("length of mixed array is = ", list_length)
+
+for i in range(0, list_length):
+    print(mixed[i])
+
+for item in mixed:
+    print(item)
+
     
 
 
